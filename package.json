@@ -1,0 +1,29 @@
+{
+  "name": "test-api",
+  "version": "1.0.0",
+  "description": "Creating a test API to see how the process works",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahmorris926/test-api.git"
+  },
+  "keywords": [],
+  "author": "Sarah Morris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarahmorris926/test-api/issues"
+  },
+  "homepage": "https://github.com/sarahmorris926/test-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+}
